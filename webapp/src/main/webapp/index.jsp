@@ -5,6 +5,13 @@
 <title>Static Register</title>
 </head>
 <body>
-
+<table>
+<tr><td>UserId:</td><td><input type="text" name="to"/></td></tr>
+<tr><td>Password:</td><td><input type="password" name="subject"/></td></tr>
+<tr><td colspan="2">Message:</td><td></tr>
+<tr><td colspan="2"><textarea name="message" rows="5" cols="30"></textarea></td></tr>
+<tr><td colspan="2"><input id="submit" type="submit" value="Send Mail"/>
+</td></tr>
+</table>
 </body>
 </html>
